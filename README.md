@@ -102,7 +102,7 @@ To design a functional, usable, and scalable system that:
 
 ## Planned Workflow
 
-```mermaid
+```
 flowchart TD
     A[PDF Receipts] --> B[File Type Detection]
     B --> C[Text Extraction]
