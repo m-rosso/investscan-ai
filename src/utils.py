@@ -16,6 +16,6 @@ def time_it(func):
         # captura verbose se existir nos kwargs, default False
         verbose = kwargs.get("verbose", False)
         if verbose:
-            print(f"Tempo de execução: {elapsed_time:.2f} s")
+            print(f"Tempo de execução: {elapsed_time:.2f} s\n")
         return result
     return wrapper
